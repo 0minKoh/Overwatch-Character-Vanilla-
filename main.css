@@ -27,9 +27,11 @@ body {
   background-color: #555;
   overflow: hidden;
   transform: skew(-14deg);
-  transition: .1s,;
-  background-color: .6s;
+  transition: 
+    transform .1s, 
+    background-color .6s;
 }
+
 .container .heros .hero:hover {
   background-color: #ff9c00;
   transform: skew(-14deg) scale(1.3);
